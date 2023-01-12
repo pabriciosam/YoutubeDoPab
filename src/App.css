@@ -24,11 +24,13 @@
 
 .videoTitulo {
   font-weight: 600;
+  font-size: 20pt;
   color: #468284;
   padding: 10px;
 }
 
 .videoDescricao {
   padding: 10px;
+  font-size: 15pt;
   color: #0000CD;
 }
