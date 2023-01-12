@@ -35,7 +35,7 @@ class VideoList extends Component {
     }
 }
 
-const mapDispachToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch) => {
     return {
         reproduz: (video) => dispatch(reproduzVideo(video))
     }
@@ -49,4 +49,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, mapDispachToProps)(VideoList)
+export default connect(mapStateToProps, mapDispatchToProps)(VideoList)

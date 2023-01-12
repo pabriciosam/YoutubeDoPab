@@ -7,7 +7,7 @@ class SearchBar extends Component {
     constructor(props){
         super(props)
 
-        this.props.buscaVideo('Gambiarra')
+        this.props.buscaVideo('Futebol')
     }
 
     pesquisaTermo = e => {
@@ -32,10 +32,10 @@ class SearchBar extends Component {
     }
 }
 
-const mapDispachToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch) => {
     return {
         buscaVideo: (termo) => dispatch(buscaVideo(termo))
     }
 }
 
-export default connect(null, mapDispachToProps)(SearchBar)
+export default connect(null, mapDispatchToProps)(SearchBar)
